@@ -1,0 +1,18 @@
+.intro-img img {
+  width: 60%;
+}
+@media screen and (min-width: 800px) {
+  .intro > .container {
+    display: flex;
+    gap: var(--spacing-2);
+  }
+  .intro > .container div {
+    flex: 1;
+  }
+  .intro-img {
+    transform: rotate(5deg);
+  }
+  .intro-img:nth-child(1) {
+    transform: rotate(355deg);
+  }
+}

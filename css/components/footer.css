@@ -1,0 +1,4 @@
+footer p {
+  text-transform: uppercase;
+  font-size: var(--spacing-2);
+}
