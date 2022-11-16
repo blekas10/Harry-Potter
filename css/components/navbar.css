@@ -41,6 +41,9 @@
   justify-content: center;
   gap: var(--spacing-3);
 }
+.navbar__nav li {
+  transition: 0.6s;
+}
 .navbar__nav a {
   text-decoration: none;
   font-family: "myFont";
@@ -57,6 +60,11 @@
   gap: var(--spacing-4);
   display: flex;
   justify-content: center;
+  transition: 0.6s;
+}
+.navbar__nav li:hover,
+.navbar-icons:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 580px) {
